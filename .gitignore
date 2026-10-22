@@ -1,0 +1,26 @@
+# Local credentials and account access notes
+.env
+.env.*
+!.env.example
+**/TEST-ACCESS.md
+**/*credentials*.json
+**/client_secret*.json
+**/*token*.secret
+
+# Local runtimes, generated files, databases and caches
+**/node_modules/
+**/.venv/
+**/.pgdata/
+**/.runtime/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/*.pyc
+**/*.log
+**/*.pid
+_bmad/render/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
